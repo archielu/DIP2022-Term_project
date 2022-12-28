@@ -13,7 +13,7 @@ You can download the COCO format Visdrone2019 here (https://drive.google.com/dri
 ## DETR
 ### Fine-tuning
 #### Training
-If you wwant to do the finetune, you should first download the no-head DETR weight : https://drive.google.com/file/d/1v_-pquj5Ik-s-KmdqTKKI6gSSRkSdgQR/view?usp=share_link 
+If you wwant to do the finetune, you should first download the no-head DETR weight : https://drive.google.com/file/d/1v_-pquj5Ik-s-KmdqTKKI6gSSRkSdgQR/view?usp=share_link and save it as ./detr-r50_no-class-head.pth
 ```shell
 python3 ./my_finetune_final.py
  -- coco_path ../../data/
