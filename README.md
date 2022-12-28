@@ -13,6 +13,7 @@ You can download the COCO format Visdrone2019 here (https://drive.google.com/dri
 ## DETR
 ### Fine-tuning
 #### Training
+If you wwant to do the finetune, you should first download the no-head DETR weight : https://drive.google.com/file/d/1v_-pquj5Ik-s-KmdqTKKI6gSSRkSdgQR/view?usp=share_link 
 ```shell
 python3 ./my_finetune_final.py
  -- coco_path ../../data/
@@ -27,7 +28,8 @@ python3 ./my_finetune_final.py
 python3 ./my_demo.py [path to model checkpoint] [input image] [output_dir]
 ```
 
-#### Use our model (fintune 400 epochs) 
+#### Use our model (fintune 400 epochs)
+You should download our model and save as directory ./outputs-epochs400/ from here: https://drive.google.com/drive/folders/1xY_1pN7b5DAhLce1P822Gvk3V-pTuRCC?usp=share_link
 ```shell
 python3 ./my_demo.py ./outputs-epochs400/checkpoint.pth [input image] [output_dir]
 ```
