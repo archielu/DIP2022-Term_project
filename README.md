@@ -1,7 +1,7 @@
 # DIP Term Project Group 7
 
-## Data
-You can download the COCO format Visdrone2019 here (https://drive.google.com/drive/folders/1_8WTsfkOIxVIkVARQAmjfRXDhOOXFwcK?usp=share_link), the format should like:
+## Data(./data)
+You should download the COCO format Visdrone2019 here (https://drive.google.com/drive/folders/1_8WTsfkOIxVIkVARQAmjfRXDhOOXFwcK?usp=share_link), the format should like:
 ```shell
 ./data/
 	./anotations
@@ -10,7 +10,7 @@ You can download the COCO format Visdrone2019 here (https://drive.google.com/dri
 ```
 
 
-## DETR
+## DETR (./detr)
 ### Fine-tuning
 #### Training
 If you wwant to do the finetune, you should first download the no-head DETR weight : https://drive.google.com/file/d/1v_-pquj5Ik-s-KmdqTKKI6gSSRkSdgQR/view?usp=share_link and save it as ./detr-r50_no-class-head.pth
@@ -34,7 +34,7 @@ You should download our model and save as directory ./outputs-epochs400/ from he
 python3 ./my_demo.py ./outputs-epochs400/checkpoint.pth [input image] [output_dir]
 ```
 
-## CenterNet
+## CenterNet (./centernet)
 ### Dependencies
 
 - Python >= 3.6
