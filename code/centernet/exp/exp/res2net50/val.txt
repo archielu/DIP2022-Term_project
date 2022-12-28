@@ -1,0 +1,105 @@
+2022-12-05 15:27:30: ==> torch version: 1.7.1
+2022-12-05 15:27:30: ==> cudnn version: 7605
+2022-12-05 15:27:30: ==> Cmd: ['main.py', '--arch', 'res2net50', '--min_overlap', '0.3', '--gpus', '0', '--num_epochs', '100', '--lr_step', '60', '--batch_size', '4', '--lr', '0.1562e-4', '--exp_id', './exp/res2net50']
+2022-12-05 15:27:30: ==> Opt:
+2022-12-05 15:27:30:   K: 500
+2022-12-05 15:27:30:   arch: res2net50
+2022-12-05 15:27:30:   batch_size: 4
+2022-12-05 15:27:30:   data_dir: /home/robotlab/Desktop/archie/centernet-visdrone/src/../data/visdrone
+2022-12-05 15:27:30:   dataset_info: {'num_classes': 10, 'mean': array([[[0.372949  , 0.37837514, 0.36463863]]], dtype=float32), 'std': array([[[0.19171683, 0.18299586, 0.19437608]]], dtype=float32), 'class_name': ['pedestrian', 'people', 'bicycle', 'car', 'van', 'truck', 'tricycle', 'awning-tricycle', 'bus', 'motor'], 'valid_ids': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+2022-12-05 15:27:30:   device: cuda
+2022-12-05 15:27:30:   exp_id: ./exp/res2net50
+2022-12-05 15:27:30:   flip: 0.5
+2022-12-05 15:27:30:   flip_test: False
+2022-12-05 15:27:30:   gpus: 0
+2022-12-05 15:27:30:   heads: {'hm': 10, 'wh': 2, 'reg': 2}
+2022-12-05 15:27:30:   hm_weight: 1
+2022-12-05 15:27:30:   image: 
+2022-12-05 15:27:30:   input_h: 960
+2022-12-05 15:27:30:   input_w: 1280
+2022-12-05 15:27:30:   load_model: 
+2022-12-05 15:27:30:   lr: 1.562e-05
+2022-12-05 15:27:30:   lr_step: [60]
+2022-12-05 15:27:30:   min_overlap: 0.3
+2022-12-05 15:27:30:   nms: False
+2022-12-05 15:27:30:   num_epochs: 100
+2022-12-05 15:27:30:   off_weight: 1
+2022-12-05 15:27:30:   root_dir: /home/robotlab/Desktop/archie/centernet-visdrone/src/..
+2022-12-05 15:27:30:   rotate: 0
+2022-12-05 15:27:30:   save_dir: /home/robotlab/Desktop/archie/centernet-visdrone/src/../exp/./exp/res2net50
+2022-12-05 15:27:30:   scale: 0.4
+2022-12-05 15:27:30:   shift: 0.1
+2022-12-05 15:27:30:   test_scales: [1.0]
+2022-12-05 15:27:30:   val_intervals: 10
+2022-12-05 15:27:30:   vis_thresh: 0.4
+2022-12-05 15:27:30:   wh_weight: 0.1
+2022-12-05 15:34:49: ==> torch version: 1.7.1
+2022-12-05 15:34:49: ==> cudnn version: 7605
+2022-12-05 15:34:49: ==> Cmd: ['main.py', '--arch', 'res2net50', '--min_overlap', '0.3', '--gpus', '0', '--num_epochs', '100', '--lr_step', '60', '--batch_size', '4', '--lr', '0.1562e-4', '--exp_id', './exp/res2net50']
+2022-12-05 15:34:49: ==> Opt:
+2022-12-05 15:34:49:   K: 500
+2022-12-05 15:34:49:   arch: res2net50
+2022-12-05 15:34:49:   batch_size: 4
+2022-12-05 15:34:49:   data_dir: /home/robotlab/Desktop/archie/centernet-visdrone/src/../data/visdrone
+2022-12-05 15:34:49:   dataset_info: {'num_classes': 10, 'mean': array([[[0.372949  , 0.37837514, 0.36463863]]], dtype=float32), 'std': array([[[0.19171683, 0.18299586, 0.19437608]]], dtype=float32), 'class_name': ['pedestrian', 'people', 'bicycle', 'car', 'van', 'truck', 'tricycle', 'awning-tricycle', 'bus', 'motor'], 'valid_ids': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+2022-12-05 15:34:49:   device: cuda
+2022-12-05 15:34:49:   exp_id: ./exp/res2net50
+2022-12-05 15:34:49:   flip: 0.5
+2022-12-05 15:34:49:   flip_test: False
+2022-12-05 15:34:49:   gpus: 0
+2022-12-05 15:34:49:   heads: {'hm': 10, 'wh': 2, 'reg': 2}
+2022-12-05 15:34:49:   hm_weight: 1
+2022-12-05 15:34:49:   image: 
+2022-12-05 15:34:49:   input_h: 960
+2022-12-05 15:34:49:   input_w: 1280
+2022-12-05 15:34:49:   load_model: 
+2022-12-05 15:34:49:   lr: 1.562e-05
+2022-12-05 15:34:49:   lr_step: [60]
+2022-12-05 15:34:49:   min_overlap: 0.3
+2022-12-05 15:34:49:   nms: False
+2022-12-05 15:34:49:   num_epochs: 100
+2022-12-05 15:34:49:   off_weight: 1
+2022-12-05 15:34:49:   root_dir: /home/robotlab/Desktop/archie/centernet-visdrone/src/..
+2022-12-05 15:34:49:   rotate: 0
+2022-12-05 15:34:49:   save_dir: /home/robotlab/Desktop/archie/centernet-visdrone/src/../exp/./exp/res2net50
+2022-12-05 15:34:49:   scale: 0.4
+2022-12-05 15:34:49:   shift: 0.1
+2022-12-05 15:34:49:   test_scales: [1.0]
+2022-12-05 15:34:49:   val_intervals: 10
+2022-12-05 15:34:49:   vis_thresh: 0.4
+2022-12-05 15:34:49:   wh_weight: 0.1
+2022-12-05 15:45:51: ==> torch version: 1.7.1
+2022-12-05 15:45:51: ==> cudnn version: 7605
+2022-12-05 15:45:51: ==> Cmd: ['main.py', '--arch', 'res2net50', '--min_overlap', '0.3', '--gpus', '0', '--num_epochs', '100', '--lr_step', '60', '--batch_size', '2', '--lr', '0.1562e-4', '--exp_id', './exp/res2net50']
+2022-12-05 15:45:51: ==> Opt:
+2022-12-05 15:45:51:   K: 500
+2022-12-05 15:45:51:   arch: res2net50
+2022-12-05 15:45:51:   batch_size: 2
+2022-12-05 15:45:51:   data_dir: /home/robotlab/Desktop/archie/centernet-visdrone/src/../data/visdrone
+2022-12-05 15:45:51:   dataset_info: {'num_classes': 10, 'mean': array([[[0.372949  , 0.37837514, 0.36463863]]], dtype=float32), 'std': array([[[0.19171683, 0.18299586, 0.19437608]]], dtype=float32), 'class_name': ['pedestrian', 'people', 'bicycle', 'car', 'van', 'truck', 'tricycle', 'awning-tricycle', 'bus', 'motor'], 'valid_ids': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+2022-12-05 15:45:51:   device: cuda
+2022-12-05 15:45:51:   exp_id: ./exp/res2net50
+2022-12-05 15:45:51:   flip: 0.5
+2022-12-05 15:45:51:   flip_test: False
+2022-12-05 15:45:51:   gpus: 0
+2022-12-05 15:45:51:   heads: {'hm': 10, 'wh': 2, 'reg': 2}
+2022-12-05 15:45:51:   hm_weight: 1
+2022-12-05 15:45:51:   image: 
+2022-12-05 15:45:51:   input_h: 960
+2022-12-05 15:45:51:   input_w: 1280
+2022-12-05 15:45:51:   load_model: 
+2022-12-05 15:45:51:   lr: 1.562e-05
+2022-12-05 15:45:51:   lr_step: [60]
+2022-12-05 15:45:51:   min_overlap: 0.3
+2022-12-05 15:45:51:   nms: False
+2022-12-05 15:45:51:   num_epochs: 100
+2022-12-05 15:45:51:   off_weight: 1
+2022-12-05 15:45:51:   root_dir: /home/robotlab/Desktop/archie/centernet-visdrone/src/..
+2022-12-05 15:45:51:   rotate: 0
+2022-12-05 15:45:51:   save_dir: /home/robotlab/Desktop/archie/centernet-visdrone/src/../exp/./exp/res2net50
+2022-12-05 15:45:51:   scale: 0.4
+2022-12-05 15:45:51:   shift: 0.1
+2022-12-05 15:45:51:   test_scales: [1.0]
+2022-12-05 15:45:51:   val_intervals: 10
+2022-12-05 15:45:51:   vis_thresh: 0.4
+2022-12-05 15:45:51:   wh_weight: 0.1
