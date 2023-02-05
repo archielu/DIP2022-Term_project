@@ -94,6 +94,9 @@ python3 ./demo.py
 ```
 The result will save at demo_result.png
 
+### Experiment on focal loss
+![image](https://github.com/archielu/DIP2022-Term_project/blob/main/figs/focal_loss.png)
+
 ### Result
 ![image](https://github.com/archielu/DIP2022-Term_project/blob/main/figs/centernet_scratch_48.png)
 
