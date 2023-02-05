@@ -33,6 +33,9 @@ You should download our model and save as directory ./outputs-epochs400/ from he
 ```shell
 python3 ./my_demo.py ./outputs-epochs400/checkpoint.pth [input image] [output_dir]
 ```
+#### Result
+![image](https://github.com/archielu/DIP2022-Term_project/blob/main/figs/detr_plot.png)
+![image](https://github.com/archielu/DIP2022-Term_project/blob/main/figs/detr_finetune_48.png)
 
 ## CenterNet (./centernet)
 ### Dependencies
@@ -90,6 +93,9 @@ python3 ./demo.py
  --image <path/to/your_picture.jpg>
 ```
 The result will save at demo_result.png
+
+### Result
+![image](https://github.com/archielu/DIP2022-Term_project/blob/main/figs/centernet_scratch_48.png)
 
 
 
